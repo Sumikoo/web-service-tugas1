@@ -9,7 +9,7 @@ import random, string
 
 
 # Inisialisasi
-database_file = 'sqlite:///database/dbBigpro.sqlite'
+database_file = 'sqlite:///database/users.db'
 
 app = Flask(__name__)
 app.config["SQLALCHEMY_DATABASE_URI"] = database_file
